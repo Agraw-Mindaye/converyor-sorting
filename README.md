@@ -1,7 +1,7 @@
 # Conveyor Sorting PLC
 
 ## Overview
-A PLC-based converyor system that sorts items into trays (A/B) using a
+A PLC-based conveyor system that sorts items into trays (A/B) using a
 diverter. The system runs one item at a time and enforces a route-dependent tray-empty interlock:
   the conveyor will only transfer an item if its destination tray is empty
 
