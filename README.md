@@ -12,8 +12,8 @@ diverter. The system runs one item at a time and enforces a route-dependent tray
 - Faults are latched and require local reset; after reset the system returns to STOPPED
 
 ## State Machine
-STOPPED → IDLE_READY → (WAIT_TRAY_EMPTY) → TRANSFER → IDLE_READY  
-Any fault → FAULT (latched) → RESET → STOPPED
+- STOPPED → IDLE_READY → (WAIT_TRAY_EMPTY) → TRANSFER → IDLE_READY  
+- Any fault → FAULT (latched) → RESET → STOPPED
 
 ## Contents
 - `docs/` Control philosophy, I/O list, state machine, fault handling
@@ -23,4 +23,4 @@ Any fault → FAULT (latched) → RESET → STOPPED
 
 ## Tools
 - CODESYS V3
-- (Optional) Factory I/O / simulation environment
+- Factory I/O / simulation environment
