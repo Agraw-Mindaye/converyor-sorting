@@ -1,0 +1,33 @@
+# =========================
+# CODESYS user/temp files
+# =========================
+*.~u
+*.bak
+*.tmp
+*.log
+
+# CODESYS build artifacts
+*.compileinfo
+*.bootinfo
+*.app
+*.crc
+*.map
+
+# =========================
+# Factory I/O temp files
+# =========================
+factoryio/.cache/
+factoryio/logs/
+*.log
+
+# =========================
+# Windows system files
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+
